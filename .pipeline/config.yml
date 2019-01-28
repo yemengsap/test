@@ -1,0 +1,3 @@
+steps:
+  nodeBuild:
+    dockerImage: 'node:latest'

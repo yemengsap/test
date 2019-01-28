@@ -2,15 +2,11 @@
 
 @Library('piper-library-os-experimental') _
 
-stage ('first stage') {
+stage ('node') {
     node {
-        echo "Hello world!"
-        sh """
-        node --version
-        java -version
-        mvn --version
-        npm --version
-        """
+	deleteDir()
+	checkout scm
+        setupCommonPipelineEnvironment script: this
+	nodeBuild script: this
     }
 }
-
