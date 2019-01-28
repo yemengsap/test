@@ -5,5 +5,12 @@
 stage ('first stage') {
     node {
         echo "Hello world!"
+        sh """
+        node --version
+        java -version
+        mvn --version
+        npm --version
+        """
     }
 }
+
