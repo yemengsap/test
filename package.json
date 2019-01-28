@@ -1,6 +1,5 @@
 {
-  "name": "my test project",
+  "name": "my-test-project",
   "version": "0.0.1",
-  "script":
-    {"build": "node --version && npm --version"}
+  "scripts": {"build": "node --version && npm --version"}
 }
