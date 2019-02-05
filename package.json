@@ -1,5 +1,5 @@
 {
   "name": "my-test-project",
   "version": "0.0.1",
-  "scripts": {"build": "node --version && npm --version && bower --version && grunt --version"}
+  "scripts": {"build": "node --version && npm --version && grunt --version"}
 }
