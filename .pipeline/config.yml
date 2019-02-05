@@ -1,3 +1,5 @@
+general:
+  collectTelemetryData: false
 steps:
   nodeBuild:
-    dockerImage: 'node:latest'
+    dockerImage: 'digitallyseamless/nodejs-bower-grunt:5'
