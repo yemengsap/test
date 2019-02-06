@@ -7,6 +7,6 @@ stage ('node') {
 	deleteDir()
 	checkout scm
         setupCommonPipelineEnvironment script: this
-	npmExecute script: this
+	npmExecute(script: this) {}
     }
 }
