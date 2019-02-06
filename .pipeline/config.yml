@@ -3,4 +3,3 @@ general:
 steps:
   nodeBuild:
     dockerImage: 'node:lts-slim'
-    npmScript: 'build'
