@@ -8,6 +8,6 @@
     "grunt-contrib-uglify": "~0.5.0"
   },
   "scripts": {
-    "build": "pwd && node --version && npm --version && npm install -g grunt-cli && npm install && grunt --version  && grunt"
+    "build": "pwd && node --version && npm --version && npm config set prefix \"./npm/node_modules\" && export PATH=\"$PATH:./npm/node_modules/bin\" && npm install -g grunt-cli && npm install && grunt --version  && grunt"
   }
 }
